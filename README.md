@@ -7,7 +7,7 @@
 
 To use this package, you can install it via npm:
 
-> npm install parse-query-builder
+    npm install parse-query-builder
 
 ## Usage
 
@@ -15,12 +15,12 @@ To get started with the Parse Query Builder, follow these steps:
 
  1. Import the package into your project.
 
->    const { DB } = require('parse-query-builder');
+        const { DB } = require('parse-query-builder');
 
  2. Create a query for a specific Parse class.
 
->    const query = DB.table('YourClassName');
-
+        const query = DB.table('YourClassName');
+ 
 Use the where method to add conditions to your query. You can specify conditions as arguments or use nested arrays for complex queries.
 
 
