@@ -19,7 +19,7 @@ To get started with the Parse Query Builder, follow these steps:
 
  2. Create a query for a specific Parse class.
 
-        const query = DB.table('YourClassName');
+        const query = DB.table(Parse.Object.extend("YourClassName"));
  
 Use the where method to add conditions to your query. You can specify conditions as arguments or use nested arrays for complex queries.
 
@@ -48,7 +48,7 @@ The Parse Query Builder supports the following operators for building conditions
 Here's an example of how to use the Parse Query Builder:
 
 	const { DB } = require('parse-query-builder');
-	const query = DB.table('YourClassName');
+	const query = DB.table(Parse.Object.extend("YourClassName"));
 	query.where('fieldName', '=', 'value');
 	const results = await query.find();
 	console.log(results);
