@@ -14,10 +14,14 @@ npm install parse-query-builder
 
 To get started with the Parse Query Builder, follow these steps:
 
-Import the package into your project.
-
-Create a query for a specific Parse class.
-
+1. Import the package into your project.
+```plaintext
+const { DB } = require('parse-query-builder');
+```
+2. Create a query for a specific Parse class.
+```plaintext
+const query = DB.table(Parse.Object.extend("YourClassName"));
+```
 Use the where method to add conditions to your query. You can specify conditions as arguments or use nested arrays for complex queries.
 
 ```plaintext
