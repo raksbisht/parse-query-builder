@@ -1,7 +1,6 @@
 {
   "name": "parse-query-builder",
-  "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A Node.js module that simplifies the process of building database queries for the Parse platform. It provides an intuitive and flexible way to construct queries with support for various conditions and operators while also supporting all existing methods of the Parse query.",
   "main": "index.js",
   "scripts": {

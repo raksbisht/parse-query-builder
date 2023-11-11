@@ -1,4 +1,4 @@
-import Parse from 'parse';
+const Parse = require('parse/node');
 
 const operators = {
   "=": "equalTo",
@@ -55,4 +55,4 @@ class DB extends Parse.Query {
   }
 }
 
-export { DB };
+module.exports = { DB };
