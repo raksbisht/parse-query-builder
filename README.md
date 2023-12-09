@@ -61,12 +61,12 @@ console.log(results);
 
 > ## Query Execution
 
-### First
+### Get
 
-Executes the query and retrieves the first matching result.
+Executes the query and get record by id.
 
 ```plaintext
-query.first();
+query.get(id);
 ```
 
 ### Find
@@ -76,6 +76,15 @@ Executes the query and retrieves all matching results.
 ```plaintext
 query.find();
 ```
+
+### First
+
+Executes the query and retrieves the first matching result.
+
+```plaintext
+query.first();
+```
+
 
 ### Distinct
 
