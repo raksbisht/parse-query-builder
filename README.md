@@ -179,6 +179,14 @@ Includes the count of the total number of results in the query result.
 query.withCount(); // to include count
 ```
 
+### count
+
+get only the count of the total number of results in the query result.
+
+```plaintext
+query.count(); 
+```
+
 
 > ## Sorting Results
 
