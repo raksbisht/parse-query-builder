@@ -267,6 +267,17 @@ Adds a condition to the query to find objects where the specified field starts w
 query.startsWith("name", "Big Daddy's");
 ```
 
+
+> ## Other Methods
+
+### toJSON
+
+Returns a JSON representation of this query.
+
+```plaintext
+query.toJSON();
+```
+
 ## License
 
 This package is open-source and available under the MIT License.
