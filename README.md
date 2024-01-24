@@ -93,6 +93,13 @@ Queries can find unique values for a specified field.
 ```plaintext
 query.distinct("fieldName")
 ```
+### Select
+
+Select particular fields from the query
+
+```plaintext
+query.select("fieldName1", "fieldName2");
+```
 
 
 > ## Comparison Operators
