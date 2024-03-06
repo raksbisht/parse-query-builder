@@ -284,6 +284,22 @@ Returns a JSON representation of this query.
 ```plaintext
 query.toJSON();
 ```
+### aggregate
+Queries can be made using aggregate, similar to mongodb aggregate method.
+
+```plaintext
+const pipeline = [
+  { $group: { _id: '$name' } }
+];
+const query = new Parse.Query("User");
+query.aggregate(pipeline)
+  .then(function(results) {
+    // results contains unique name values
+  })
+  .catch(function(error) {
+    // There was an error.
+  });
+```
 
 ## License
 
